@@ -21,7 +21,7 @@ server {
     set $CORS_CREDS true;
     set $CORS_ORIGIN '*';
     set $CORS_METHODS 'GET, POST, PUT, DELETE, OPTIONS';
-    set $CORS_HEADERS 'Authentication-Token, Cache-Control, Cookie, If-Modified-Since, Range, User-Agent, X-Requested-With';
+    set $CORS_HEADERS 'Authentication-Token, Cache-Control, Cookie, If-Modified-Since, Range, User-Agent, X-Requested-With, Access-Control-Allow-Origin, Content-Type';
     set $CORS_EXPOSE_HEADERS 'Content-Disposition, Content-Length, Content-Range, Set-Cookie';
     set $CORS_PREFLIGHT_CACHE_AGE 600;
 
